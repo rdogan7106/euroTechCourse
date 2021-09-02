@@ -12,7 +12,7 @@ public class _07_ExplicitWait extends BaseStaticDriver {
         WebElement button = driver.findElement(By.cssSelector("[onclick='timeText()']"));
         button.click();
         WebDriverWait waits = new WebDriverWait(driver,5);
-        WebElement webDriverText = waits.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//p[text()='WebDriver']")));
+       // WebElement webDriverText = waits.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//p[text()='WebDriver']")));
         Bekle(2);
         Kapat();
 
